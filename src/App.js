@@ -1,9 +1,12 @@
 import './App.css';
+import HomeScreen from './HomeScreen';
 
 function App() {
   return (
     <div>
-     <h1>NETFLIX CLONE</h1>
+
+     <HomeScreen />
+     
     </div>
   );
 }

@@ -3,7 +3,7 @@ import './NavBar.css';
 
 function NavBar() {
 
-const [show, handleShow] = useState(true)
+const [show, handleShow] = useState(false)
 
 
 const transitionNavBar = () => {

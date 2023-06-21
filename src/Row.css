@@ -37,3 +37,9 @@
     transform: scale(1.09);
     opacity: 1;
 }
+
+.movie_name {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+  }

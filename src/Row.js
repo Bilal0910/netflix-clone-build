@@ -26,7 +26,7 @@ function Row({title, fetchURL, isLargeRow = false}) {
             (movie) => 
              ((isLargeRow && movie.poster_path) ||
               (!isLargeRow && movie.backdrop_path)) && (
-                <>
+                <div>
             <img
              className={`row_poster ${isLargeRow && "row_posterLarge"}`}
              key={movie.id}
@@ -38,7 +38,7 @@ function Row({title, fetchURL, isLargeRow = false}) {
               <p className='movie_name'>
                 {movie?.title || movie?.name || movie?.original_name}</p>
             
-              </>
+              </div>
         )
         )}
         </div>
